@@ -81,7 +81,7 @@ body {
 
 .footer{
 
-  background-color: #121249;
+  background:url(../assets/img/background.png);
   height: 60px;
   display: flex;
   flex-direction: row;
@@ -153,7 +153,8 @@ iframe {
   &__text2{
     
     font-size: 21px;
-  margin-top:6px;
+    margin-top:6px;
+    text-align: center;
     }
 
 
@@ -167,17 +168,19 @@ iframe {
 }
 
 .navigation{
+  margin: auto;
 
-  position: fixed;
   width: 100%;
   top: 0px;
   left: 0px;
-  height:120px;
+  height:180px;
   box-sizing: border-box;
-  background-color:#121249;
+  background:url(../assets/img/background.png);
+
   display: flex;
-  flex-direction: row;
-  justify-content:flex-start;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
   
 
   &__iteam{
@@ -195,7 +198,7 @@ iframe {
     list-style: none;
     padding: 0;
     display: flex;
-    margin-right: 48px;
+    margin-right: 0px;
     
   }
 
@@ -255,7 +258,7 @@ iframe {
 
 .position1{
 
-  margin-top: 140px;
+  margin-top: 60px;
   
   font-family: 'Poppins', sans-serif;
     font-style: normal;
