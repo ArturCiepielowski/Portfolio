@@ -2,6 +2,10 @@
 
 // service worker registration - remove if you're not going to use it
 
+
+
+
+
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('serviceworker.js').then(function(registration) {
@@ -13,8 +17,6 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-
-
 
 
 const navigationSwitcher = document.querySelector('.navigation__switcher--js');
