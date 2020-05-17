@@ -1,90 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Szkielet Tytuł</title>
-    <meta name="description" content="Szkielet wykonany na potrzebe Artura Ciepielowskiego" />
 
-    <meta property="og:title" content="Szkielet strony Artura Ciepielowskiego" />
-    <meta property="og:description" content="Szkielet strony Artura Ciepielowskiego, używany będzie wielokrotnie w przyszłości" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Szkielet Tytuł</title>
+  <meta name="description" content="Szkielet wykonany na potrzebe Artura Ciepielowskiego" />
 
-    <link rel="manifest" href="manifest.json" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link
-      rel="apple-touch-icon"
-      sizes="192x192"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+  <meta property="og:title" content="Szkielet strony Artura Ciepielowskiego" />
+  <meta property="og:description"
+    content="Szkielet strony Artura Ciepielowskiego, używany będzie wielokrotnie w przyszłości" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
 
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/icon-192x192.png" />
 
-    <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" type="image/png" href="assets/pwa/icons/icon-192x192.png" />
+
+  <link rel="stylesheet" href="css/main.css" />
 
 
-  </head>
-  
-  <body>
-    <nav class="navigation">
-        <div class="navigation__logoContainer"><a class="navigation__logoLink" href="index.html"><p class="logo__text1">Artur Ciepielowski</p><p class="logo__text2">Projektant, konstruktor</p></a></div>
-        <ul class="navigation__list navigation__list--js">
-            <li class="navigation__iteam"> <a class="navigation__pos1" href="#position1">O mnie</a></li>
-            <li class="navigation__iteam"> <a class="navigation__pos2" href="doswiadczenie.html">Doświadczenie</a></li>
-            <li class="navigation__iteam"> <a class="navigation__pos3" href="#position3">Umiejętności</a></li>
-            <li class="navigation__iteam"> <a class="navigation__pos4" href="#position4">Kontakt</a></li>
-        </ul>
-        <button class="navigation__switcher navigation__switcher--js" aria-label="Open the menu">≡</button>
-    </nav>
-    <div class="navigationColumn navigationColumn--js">
-      <ul class="navigation__listColumn navigation__listColumn--js">
-        <li class="navigation__iteamColumn navigation__iteamColumn1--js"> <a class="navigation__pos5" href="#position1">O mnie</a></li>
-        <li class="navigation__iteamColumn navigation__iteamColumn2--js"> <a class="navigation__pos6" href="doswiadczenie.html">Doświadczenie</a></li>
-        <li class="navigation__iteamColumn navigation__iteamColumn3--js"> <a class="navigation__pos7" href="#position3">Umiejętności</a></li>
-        <li class="navigation__iteamColumn navigation__iteamColumn4--js"> <a class="navigation__pos8" href="#position4">Kontakt</a></li>
-     </ul>
-</div>
+</head>
+
+<body>
+  <nav class="navigation">
+    <div class="navigation__logoContainer"><a class="navigation__logoLink" href="index.html">
+        <p class="logo__text1">Artur Ciepielowski</p>
+        <p class="logo__text2">Projektant, konstruktor</p>
+      </a></div>
+    <ul class="navigation__list navigation__list--js">
+      <li class="navigation__iteam"> <a class="navigation__pos1" href="index.html">O mnie</a></li>
+      <li class="navigation__iteam"> <a class="navigation__pos2" href="doswiadczenie.html">Doświadczenie</a></li>
+      <li class="navigation__iteam"> <a class="navigation__pos3" href="umiejetnosci.html">Umiejętności</a></li>
+      <li class="navigation__iteam"> <a class="navigation__pos4" href="kontakt.html">Kontakt</a></li>
+    </ul>
+    <button class="navigation__switcher navigation__switcher--js" aria-label="Open the menu">≡</button>
+  </nav>
+  <div class="navigationColumn navigationColumn--js">
+    <ul class="navigation__listColumn navigation__listColumn--js">
+      <li class="navigation__iteamColumn navigation__iteamColumn1--js"> <a class="navigation__pos5" href="index.html">O
+          mnie</a></li>
+      <li class="navigation__iteamColumn navigation__iteamColumn2--js"> <a class="navigation__pos6"
+          href="doswiadczenie.html">Doświadczenie</a></li>
+      <li class="navigation__iteamColumn navigation__iteamColumn3--js"> <a class="navigation__pos7"
+          href="umiejetnosci.html">Umiejętności</a></li>
+      <li class="navigation__iteamColumn navigation__iteamColumn4--js"> <a class="navigation__pos8"
+          href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </div>
 
 
 
-    <section class="mainBody">
-        <section class="position1" id="position1">
-            <div class="position1__Container">
-              <div class="position1__photoContainer"><img src="assets/img/artur3.png" ref="our position1 Canal+" class="position1__img"></div>
-              <div class="position1_textContainer">
-              <h1 class="position1__header">O mnie</h1>
-              <p class="position1__content">Projektant z kilkuletnim doświadczeniem, adept sztuk walki, majsterkowicz,aspirujący front-end developer , miłośnik dobrej ksiązki oraz podróżnik na drodze samorozwoju. Poszukuje swojej pasji, dlatego ciągle podejmuję się nowych wyzwań.</p>
-              </div>
-            </div>
-        
-        </section>
+  <section class="mainBody">
+    <section class="position1" id="position1">
+      <div class="position1__Container">
+        <div class="position1__photoContainer"><img src="assets/img/artur3.png" ref="thats just me :)"
+            class="position1__img"></div>
+        <div class="position1_textContainer">
+          <h1 class="position1__header">O mnie</h1>
+          <p class="position1__content">Projektant z kilkuletnim doświadczeniem, adept sztuk walki,
+            majsterkowicz,aspirujący front-end developer , miłośnik dobrej ksiązki oraz podróżnik na drodze samorozwoju.
+            Poszukuje swojej pasji, dlatego ciągle podejmuję się nowych wyzwań.</p>
+        </div>
+      </div>
 
-       
+    </section>
 
-        <section class="position2" id="position2">
-           
-          <div position2__container>
 
-            <button class="position2__downloadButton">Ściągnij pełne CV</button>
-          </div>
 
-          </section>
+    <section class="position2" id="position2">
+
+      <div position2__container>
+
+        <button class="position2__downloadButton"><a
+            href="https://drive.google.com/open?id=1JSSLCtOnjxxeEDHCwWuECVhmi_TzV0xX">Ściągnij pełne CV</a></button>
+      </div>
+
+    </section>
 
 
   </section>
-    <footer class="footer">
-      <p class="footer__text">Śledź mnie na :</p>
-      <a class="footer__fbIconContainer" href="https://www.facebook.com/artur.ciepielowski.3"><img src="assets/img/fbIcon.png" ref="fb icon" width="45" height="45"> </a>
-      
-      
-    </footer>
+  <footer class="footer">
 
-    <script src="js/main.js"></script>
-  </body>
+
+    <p class="footer__text">Śledź mnie na :</p>
+
+    <section class="footer__container">
+      <section class="footer__container1">
+        <a class="footer__fbIconContainer" href="https://www.facebook.com/artur.ciepielowski.3"><img
+            src="assets/img/fbIcon.png" ref="fb icon" width="45" height="45"> </a>
+
+        <a class="footer__linkedIconContainer" href="https://www.linkedin.com/in/artur-ciepielowski-29428176/"><img
+            src="assets/img/linkedinIcon.png" ref="LinkedIn icon" width="45" height="45"> </a>
+
+        <a class="footer__githubIconContainer" href="https://github.com/ArturCiepielowski"><img
+            src="assets/img/githubIcon.png" ref="gitHub icon" width="42" height="42"> </a>
+
+      </section>
+
+      <section class="footer__container2">
+        <button class="footer__downloadButton"><a
+            href="https://drive.google.com/open?id=1JSSLCtOnjxxeEDHCwWuECVhmi_TzV0xX">Ściągnij pełne CV</a></button>
+      </section>
+
+    </section>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>
