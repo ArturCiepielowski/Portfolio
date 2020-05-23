@@ -57,6 +57,7 @@ navigationNc4.addEventListener("click", (e) => {
 
 
 
+
 // Buttons on experience page
 
 
@@ -91,4 +92,3 @@ indicatorParents.children[sectionIndex].classList.add('selected');
 slider.style.transform= 'translate('+ (sectionIndex)* -33.333 +'%)';
 
 });
-

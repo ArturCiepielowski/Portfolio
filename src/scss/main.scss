@@ -166,8 +166,8 @@ body {
   background: url(../assets/img/background.png);
   height: 60px;
   display: flex;
- 
-  align-items: center;
+  justify-content: space-around;
+  
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -177,26 +177,39 @@ body {
     border: 3px solid white;
     border-radius: 50px;
     background: none;
-    padding: 6px 25px;
+    padding: 2px 16px;
     font-size: 24px;
     cursor: pointer;
     color: #232a32;
     transition: 0.8s;
     position: relative;
     overflow: hidden;
+    height: 48px;
+    
   }
 
   &__container{
-      max-width: 100%;
+      
       display: flex;
-      justify-content: flex-end;
-      left:20px;
+      align-items: center;
+        
   }
 
+  
+ 
   &__container2{
+    display: flex;
+    align-items: center;
     
-    left:20px;
-}
+  }
+
+  &__buttontext{
+
+    display: flex;
+    align-content: flex-end;
+  }
+ 
+
 
   &__text {
     color: white;
@@ -205,6 +218,7 @@ body {
     margin-right: 32px;
     margin-left: 32px;
     font-size: 24px;
+    align-items: center;
   }
 
   &__linkedIconContainer {
@@ -527,6 +541,12 @@ body {
   &__img5 {
     height: 80px;
   }
+}
+
+.test{
+
+  background-color: brown;
+  width: 200px;
 }
 
 @media (min-width: 901px) {
