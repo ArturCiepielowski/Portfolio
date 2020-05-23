@@ -1,6 +1,8 @@
 @import "_normalize";
 @import "_variables";
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 
 html {
   box-sizing: border-box;
@@ -42,6 +44,7 @@ a:hover {
 
 body {
   background-color: #c8c8c8;
+  
 }
 
 .contact{
@@ -51,6 +54,7 @@ body {
   &__container1{
     
     display: flex;
+    
   }
 
   &__container2{
@@ -101,6 +105,51 @@ body {
   &__controls ul li.selected{
     background:transparent;
   }
+
+  &__container1{
+
+    background: #FFFFFF;
+    border-radius: 36px;
+    width: 450px;
+    height: 380px;
+    padding: 24px;
+  }
+  
+  &__container2{
+
+    background: #FFFFFF;
+    border-radius: 36px;
+    width: 450px;
+    height: 380px;
+    padding: 24px;
+  }
+
+  &__container3{
+
+    background: #FFFFFF;
+    border-radius: 36px;
+    width: 450px;
+    height: 380px;
+    padding: 24px;
+  }
+
+  &__container4{
+
+    background: #FFFFFF;
+    border-radius: 36px;
+    width: 450px;
+    height: 380px;
+    padding: 24px;
+  }
+
+  &__container5{
+
+    background: #FFFFFF;
+    border-radius: 36px;
+    width: 450px;
+    height: 380px;
+    padding: 24px;
+  }
  
   &__img1 {
     height: 60px;
@@ -133,7 +182,7 @@ body {
     flex-direction: row;
     transition: all 0.3s;
     width: 300%;
-    height:340px;
+    height:380px;
 
    
   }
@@ -184,7 +233,7 @@ body {
     transition: 0.8s;
     position: relative;
     overflow: hidden;
-    height: 48px;
+    height: 42px;
     
   }
 
@@ -543,10 +592,15 @@ body {
   }
 }
 
-.test{
+.transition-fade{
 
-  background-color: brown;
-  width: 200px;
+  opacity:1;
+  transition:500ms;
+}
+
+html.is-animating .transition-fade{
+
+  opacity: 0;
 }
 
 @media (min-width: 901px) {

@@ -57,6 +57,13 @@ navigationNc4.addEventListener("click", (e) => {
 
 
 
+//Page transition
+
+import Swup from 'swup';
+const swup = new Swup();
+
+
+
 // Buttons on experience page
 
 
@@ -91,4 +98,6 @@ indicatorParents.children[sectionIndex].classList.add('selected');
 slider.style.transform= 'translate('+ (sectionIndex)* -33.333 +'%)';
 
 });
+
+
 
