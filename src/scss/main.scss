@@ -1,8 +1,7 @@
 @import "_normalize";
 @import "_variables";
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 html {
   box-sizing: border-box;
@@ -32,125 +31,110 @@ a:hover {
   color: #888888;
 }
 
-.left{
-
-  left:100px;
+.left {
+  left: 100px;
 }
 
-.right{
-
-  right:100px;
+.right {
+  right: 100px;
 }
 
 body {
   background-color: #c8c8c8;
-  
 }
 
-.contact{
+.contact {
+  margin-top: 64px;
 
-  margin-top:64px;
-
-  &__container1{
-    
-    display: flex;
-    
-  }
-
-  &__container2{
-    margin-top:16px;
+  &__container1 {
     display: flex;
   }
 
-  &__info{
+  &__container2 {
+    margin-top: 16px;
+    display: flex;
+  }
+
+  &__info {
     margin-left: 24px;
-    font-size:32px ;
+    font-size: 32px;
   }
 }
 
-.experience{
-
+.experience {
   overflow: hidden;
   position: relative;
 
-  &__controls .arrow{
-
+  &__controls .arrow {
     position: absolute;
-    top:55%;
+    top: 55%;
     cursor: pointer;
   }
 
-  &__controls ul{
-
+  &__controls ul {
     position: absolute;
     bottom: 70px;
-    left:46%;
+    left: 46%;
     list-style: none;
     display: flex;
     padding: 0;
     margin: 0;
   }
 
-  &__controls ul li{
-
+  &__controls ul li {
     width: 20px;
     height: 20px;
     border: 2px solid black;
     border-radius: 50px;
-    margin:10px;
-    background:black;
+    margin: 10px;
+    background: black;
     cursor: pointer;
   }
 
-  &__controls ul li.selected{
-    background:transparent;
+  &__controls ul li.selected {
+    background: transparent;
   }
 
-  &__container1{
-
-    background: #FFFFFF;
-    border-radius: 36px;
-    width: 450px;
-    height: 380px;
-    padding: 24px;
-  }
-  
-  &__container2{
-
-    background: #FFFFFF;
+  &__container1 {
+    background: #ffffff;
     border-radius: 36px;
     width: 450px;
     height: 380px;
     padding: 24px;
   }
 
-  &__container3{
-
-    background: #FFFFFF;
+  &__container2 {
+    background: #ffffff;
     border-radius: 36px;
     width: 450px;
     height: 380px;
     padding: 24px;
   }
 
-  &__container4{
-
-    background: #FFFFFF;
+  &__container3 {
+    background: #ffffff;
     border-radius: 36px;
     width: 450px;
     height: 380px;
     padding: 24px;
   }
 
-  &__container5{
-
-    background: #FFFFFF;
+  &__container4 {
+    background: #ffffff;
     border-radius: 36px;
     width: 450px;
     height: 380px;
     padding: 24px;
   }
- 
+
+  &__container5 {
+    background: #ffffff;
+    border-radius: 36px;
+    width: 450px;
+    height: 380px;
+    padding: 24px;
+  }
+
   &__img1 {
     height: 60px;
     margin-right: 16px;
@@ -176,38 +160,31 @@ body {
     margin-right: 16px;
   }
 
-  &__sliderContainer{
-
+  &__sliderContainer {
     display: flex;
     flex-direction: row;
     transition: all 0.3s;
     width: 300%;
-    height:380px;
-
-   
+    height: 380px;
   }
 
-  &__slider1{
-    
+  &__slider1 {
     display: flex;
     width: 100%;
-    
-    justify-content: space-between;
 
+    justify-content: space-between;
   }
 
-  &__slider2{
+  &__slider2 {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    
   }
 
-  &__slider3{
+  &__slider3 {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    
   }
 }
 
@@ -216,13 +193,12 @@ body {
   height: 60px;
   display: flex;
   justify-content: space-around;
-  
+
   position: fixed;
   bottom: 0;
   width: 100%;
 
   &__downloadButton {
-    
     border: 3px solid white;
     border-radius: 50px;
     background: none;
@@ -234,31 +210,26 @@ body {
     position: relative;
     overflow: hidden;
     height: 42px;
-    
   }
 
-  &__container{
-      
-      display: flex;
-      align-items: center;
-        
+  &__dlButtonText {
+    margin-right: 8px;
   }
 
-  
- 
-  &__container2{
+  &__container {
     display: flex;
     align-items: center;
-    
   }
 
-  &__buttontext{
+  &__container2 {
+    display: flex;
+    align-items: center;
+  }
 
+  &__buttontext {
     display: flex;
     align-content: flex-end;
   }
- 
-
 
   &__text {
     color: white;
@@ -309,8 +280,7 @@ body {
   margin: auto;
 }
 
-.material-icons{
-
+.material-icons {
   font-size: 86px;
   user-select: none;
 }
@@ -413,15 +383,13 @@ body {
     overflow: hidden;
   }
 
-  &__downloadButton a{
+  &__downloadButton a {
     color: #232a32;
     transition: 0.8s;
-
   }
 
-  &__downloadButton:hover a{
+  &__downloadButton:hover a {
     color: #ffffff;
-    
   }
 
   &__downloadButton::before {
@@ -592,14 +560,12 @@ body {
   }
 }
 
-.transition-fade{
-
-  opacity:1;
-  transition:500ms;
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
 }
 
-html.is-animating .transition-fade{
-
+html.is-animating .transition-fade {
   opacity: 0;
 }
 
@@ -628,6 +594,18 @@ html.is-animating .transition-fade{
     margin-top: 32px;
   }
 
+  .footer {
+    position: relative;
+
+    &__text {
+      display: none;
+    }
+
+    &__dlButtonText {
+      display: none;
+    }
+  }
+
   .navigation {
     &__logo {
       margin-left: 24px;
@@ -637,9 +615,10 @@ html.is-animating .transition-fade{
     }
 
     &__switcher {
-      position: absolute;
-      right: 16px;
-      top: 16px;
+      width: 100%;
+      position: sticky;
+      right: 0px;
+      top: 215px;
       background-color: black;
       color: white;
       border: 2px solid white;
@@ -657,9 +636,9 @@ html.is-animating .transition-fade{
   }
 
   .navigationColumn--visible {
-    position: fixed;
+    position: sticky;
     width: 100%;
-    top: 60px;
+    top: 239px;
     left: 0px;
     height: 180px;
     box-sizing: border-box;
@@ -683,6 +662,30 @@ html.is-animating .transition-fade{
   }
 
   .position1 {
-    margin-top: 80px;
+    margin-top: 0px;
+
+    &__img {
+      margin: auto;
+      
+    }
   }
+
+  .position2 {
+    &__downloadButton {
+      height: 100px;
+      width: 300px;
+      padding: 0px 20px;
+      margin-bottom: 36px;
+    }
+
+    &__dlButtonText {
+      display: none;
+    }
+  }
+
+  .logo__text1{
+
+    text-align: center;
+  }
+
 }
