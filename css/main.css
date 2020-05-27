@@ -867,24 +867,24 @@ html.is-animating .transition-fade {
 
 @media (max-width: 1000px) {
   .experienceBody {
-    height: 2800px; }
+    height: 2950px; }
   .experience {
-    height: 2200px; }
+    height: 2350px; }
     .experience__container1 {
       width: 280px;
-      height: 430px; }
+      height: 460px; }
     .experience__container2 {
       width: 280px;
-      height: 430px; }
+      height: 460px; }
     .experience__container3 {
       width: 280px;
-      height: 430px; }
+      height: 460px; }
     .experience__container4 {
       width: 280px;
-      height: 430px; }
+      height: 460px; }
     .experience__container5 {
       width: 280px;
-      height: 430px; }
+      height: 460px; }
     .experience__img1 {
       height: 40px; }
     .experience__img4 {
@@ -924,7 +924,7 @@ html.is-animating .transition-fade {
   .contact {
     margin-bottom: 32px; }
     .contact__info {
-      font-size: 20px; }
+      font-size: 18px; }
   .experience__container1 {
     margin: 10px 0px 10px 0px; }
   .experience__container2 {
@@ -1019,7 +1019,7 @@ html.is-animating .transition-fade {
     padding-left: 16px;
     padding-right: 16px; }
   .material-icons {
-    font-size: 64px; }
+    font-size: 54px; }
   .position1__header {
     font-size: 38px; }
   .position2__downloadButton {
